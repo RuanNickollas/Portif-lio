@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pet Shop LR</title>
+</head>
+<body>
+    <header>
+    <h1 class="titulo">Pet Shop LR</h1>
+    
+    <p id="apres">
+        Seja bem vindo, a Página do nosso PetShop!
+    </p>
+    <p id="expli">
+        Nós do <b>Pet Shop LR</b> criamos esse site para você pai/mãe de pet. Com o intuito de facilitar sua vida, na hora de cuidar do seu amado <b>PET</b>
+        ! Então, cadastre já o seu pet para que ele possa ter um dia incrível com nossos funcionários!!
+    </p>
+    <p>
+        Tema: cadastro de animal de estimação
+    </p>
+</header>
+<section id="form">
+
+    <p><b>Vamos fazer o cadastro do seu pet?</b></p>
+
+    <form action="/enviar" method="post">
+ 
+        <div class="grupo">
+        <label for="nome">Diga-nos o seu nome?</label><br>
+        <input type="text" id="nome"name="nome" required placeholder="Digite seu nome completo"><br><br>
+</div>
+         
+        <div class="grupo">
+        <label for="nome">Qual o nome do seu pet?</label><br>
+        <input type="text" id="nome"name="nome" required placeholder="Digite o nome do pet"><br><br>
+</div>
+
+        <div class="grupo">
+        <label for="nome">Qual a raça do seu pet?</label><br>
+        <input type="text" id="nome"name="nome" required placeholder="Digite a raça do seu pet"><br><br>
+</div>
+
+        <div class="grupo">
+        <label for="idade">Qual a idade do seu pet?</label><br>
+        <input type="number" id="idade"name="idade"  required placeholder="ex.: 2"><br><br>
+</div>
+
+        <div class="grupo">
+        <label for="nome">Onde você mora?</label><br>
+        <input type="text" id="nome"name="nome" required placeholder="Digite seu endereço"><br><br>
+</div>
+
+        <div class="grupo">
+        <label for="telefone">Diga-nos seu número</label><br>
+        <input type="tel" id="telefone"name="telefone" required placeholder="Ex.: (00) 00000-0000"><br><br>
+</div>
+
+        <div class="grupo">
+        <label for="email">Diga-nos seu e-mail</label><br>
+        <input type="text" id="email"name="email" required placeholder="exemplo@email.com"><br><br>
+</div>
+
+<button type="submit" class="enviar">Cadastrar pet!</button>
+    </form>
+</section>
+</body>
+</html>
